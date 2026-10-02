@@ -9,7 +9,7 @@ These commands are available on the following bots:
 
 - `.draw` <text> | Provide draw prompt for imagine creation |
 - `.drawedit <url> | <instructions>` | Provide direct image URL and instructions for image modifications |
-- `.pbreview <url> [password]` | Fetch code from PrivateBin, review it, and start an editing session |
+- `.pbreview <url>` | Fetch code from PrivateBin, review it, and start an editing session | Post on "https://lagged.org" then copy <url> to bot
 - `.pbapply <instructions>` | Apply requested changes to the active PrivateBin session and upload the revised code |
 - `.prompt <text>` | Replace the runtime system prompt |
 - `.prompt show` | Show the current runtime prompt |
