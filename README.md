@@ -1,3 +1,4 @@
+![AIBot](aibot-diagram.png)
 # AIBot Command Help
 These commands are available on `AIBot`:
 - `.dbask <question>` | Search all bot conversation history and return an AI-synthesized answer. |
