@@ -6,7 +6,7 @@ These commands are available on `AIBot`:
 - `.dbstats` | Shows total conversation row counts grouped by bot. | 
 
 These commands are available on the following bots:
- `chatgpt`, `claude`, `deepseek`, `gemma`, `Hugging`, `phi`, `python`
+ `chatgpt`, `claude`, `deepseek`, `gemma`, `Hugging`
 - `Hugging: Please provide the top 10 text-to-image models?` | Directly speak to the bots  | 
 - `.draw` <text> | Provide draw prompt for imagine creation |
 - `.drawedit <url> | <instructions>` | Provide direct image URL and instructions for image modifications |
