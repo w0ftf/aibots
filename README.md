@@ -1,14 +1,13 @@
 ![AIBot](aibot-diagram.png)
 # AIBot Command Help
 These commands are available on `AIBot`:
-- `Hugging: Please provide the top 10 text-to-image models?` | Directly speak to the bots  | 
 - `.dbask <question>` | Search all bot conversation history and return an AI-synthesized answer. |
 - `.dbsearch <terms>` | Raw keyword search — shows up to 5 matching rows directly with no AI synthesis. Useful for quickly checking what's in the database. |
 - `.dbstats` | Shows total conversation row counts grouped by bot. | 
 
 These commands are available on the following bots:
  `chatgpt`, `claude`, `deepseek`, `gemma`, `Hugging`, `phi`, `python`
-
+- `Hugging: Please provide the top 10 text-to-image models?` | Directly speak to the bots  | 
 - `.draw` <text> | Provide draw prompt for imagine creation |
 - `.drawedit <url> | <instructions>` | Provide direct image URL and instructions for image modifications |
 - `.pbreview <url>` | Fetch code from PrivateBin, review it, and start an editing session | Post on "https://lagged.org" then copy <url> to bot
