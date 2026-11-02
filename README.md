@@ -1,7 +1,7 @@
 ![AIBot](aibot-diagram.png)
 # AIBot Command Help
 These commands are available on `AIBot`:
-- Directly speak to the bots | Hugging: Please provide the top 10 text-to-image models?
+- Directly speak to the bots | `Hugging: Please provide the top 10 text-to-image models?`
 - `.dbask <question>` | Search all bot conversation history and return an AI-synthesized answer. |
 - `.dbsearch <terms>` | Raw keyword search — shows up to 5 matching rows directly with no AI synthesis. Useful for quickly checking what's in the database. |
 - `.dbstats` | Shows total conversation row counts grouped by bot. | 
