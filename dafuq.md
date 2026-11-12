@@ -92,30 +92,6 @@ These are verified examples, not an exhaustive ranking. Some occur in joking exc
 
 ---
 
-## 4. First attempt to count activity
-
-**User**
-
-> Which user speaks the most?
-
-**Assistant**
-
-I can’t reliably name the most active user yet: the environment is currently blocking file-processing commands with a sandbox error. The earlier searches weren’t enough to establish a ranking, and I don’t want to guess.
-
----
-
-## 5. Checking file access
-
-**User**
-
-> Can you still inspect tmp.log?
-
-**Assistant**
-
-Yes—reading `tmp.log` works again. I successfully read its first five lines. The command needed to count messages by user is still failing with a sandbox error.
-
----
-
 ## 6. Most active user
 
 **User**
@@ -162,32 +138,6 @@ Examples with surrounding context checked:
 **Context varies:** the ComputerTech exchange appears playful, and the aloo_shu exchange continues with jokes. The Naemuti exchange escalates to Naemuti kicking Syndus with the reason “sober up.”
 
 So the supported conclusion is **occasional targeted insults and rude banter**, with at least one exchange leading to moderation. I haven’t classified every message, so I can’t yet give a reliable offensive-message total or percentage.
-
----
-
-## 8. Asking who is most offensive
-
-**User**
-
-> With all the reviewing who is the most offensive user ?
-
-**Assistant**
-
-**I can’t reliably name the most offensive user from the review so far.** We examined `wof`/`iwof` and Syndus more closely than everyone else, so comparing their examples with other users would be uneven.
-
-Several users—including **Syndus, elcasey, wez, deadly, ButtrdBread, and the bot glitchy**—use targeted insults. Establishing who does it most requires applying the same criteria across the entire log, separating human targets from bots and counting both total insults and insults per message.
-
----
-
-## 9. Confirming the most active user
-
-**User**
-
-> Which user speaks the most?
-
-**Assistant**
-
-**Syndus**, with **8,264 messages** in `tmp.log`, including action messages such as `/me`.
 
 ---
 
@@ -315,12 +265,3 @@ Zero means no human-directed example verified under this review.
 
 ---
 
-## 12. Request for a shareable transcript
-
-**User**
-
-> Can you create a nice pretty markdown file of all our conversation so I can post it up ?
-
----
-
-*End of transcript.*
